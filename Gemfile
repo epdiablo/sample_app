@@ -6,7 +6,7 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 
-gem 'pg'
+
 
 
 # Gems used only for assets and not required
@@ -25,8 +25,14 @@ gem 'jquery-rails'
 
 group :development do
   gem 'rspec-rails'
+  gem 'sqlite3'
 end
 
 group :test do
   gem 'rspec'
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
 end
