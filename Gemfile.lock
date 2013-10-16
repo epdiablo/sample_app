@@ -28,6 +28,8 @@ GEM
     activesupport (3.2.13)
       i18n (= 0.6.1)
       multi_json (~> 1.0)
+    annotate (2.5.0)
+      rake
     arel (3.0.2)
     builder (3.0.4)
     coffee-rails (3.2.2)
@@ -53,6 +55,8 @@ GEM
     mime-types (1.25)
     mini_portile (0.5.1)
     multi_json (1.8.1)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
     nokogiri (1.6.0-x86-mingw32)
       mini_portile (~> 0.5.0)
     pg (0.14.1)
@@ -127,6 +131,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  annotate
   coffee-rails (~> 3.2.1)
   jquery-rails
   pg
