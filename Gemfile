@@ -33,6 +33,7 @@ end
 group :test do
   gem 'rspec'
   gem 'sqlite3'
+  gem 'factory_girl_rails', '1.0'
 end
 
 group :production do
